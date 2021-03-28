@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include <C:\Users\lem0n\source\repos\oop_laba2_cpp\Drob.h>
+#include "Drob.h"
 
 Drob D1, D2;
 
@@ -968,34 +968,26 @@ namespace ooplaba2cpp {
 	}
 	private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob i(Convert::ToInt32(textBox7->Text), Convert::ToInt32(textBox6->Text));
-		//listBox1->Items->Add(Convert::ToString(D1.GetChis().ToString() + "/" + D1.GetZnam().ToString() + " + " + i.GetChis().ToString() + "/" + i.GetZnam().ToString() + " = "));
 		Drob tmp = D1 + i;
 		D1.SetDrob(tmp.GetChis(), tmp.GetZnam());
-		//listBox1->Items->Add(Convert::ToString(D1.GetChis().ToString() + "/" + D1.GetZnam().ToString()));
 		UpdateD1();
 	}
 	private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob i(Convert::ToInt32(textBox7->Text), Convert::ToInt32(textBox6->Text));
-		//listBox1->Items->Add(Convert::ToString(D1.GetChis().ToString() + "/" + D1.GetZnam().ToString() + " - " + i.GetChis().ToString() + "/" + i.GetZnam().ToString() + " = "));
 		Drob tmp = D1 - i;
 		D1.SetDrob(tmp.GetChis(),tmp.GetZnam());
-		//listBox1->Items->Add(Convert::ToString(D1.GetChis().ToString() + "/" + D1.GetZnam().ToString()));
 		UpdateD1();
 	}
 	private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob i(Convert::ToInt32(textBox9->Text), Convert::ToInt32(textBox8->Text));
-		//listBox1->Items->Add(Convert::ToString(D2.GetChis().ToString() + "/" + D2.GetZnam().ToString() + " + " + i.GetChis().ToString() + "/" + i.GetZnam().ToString() + " = "));
 		Drob tmp = D2 + i;
 		D2.SetDrob(tmp.GetChis(),tmp.GetZnam());
-		//listBox1->Items->Add(Convert::ToString(D2.GetChis().ToString() + "/" + D2.GetZnam().ToString()));
 		UpdateD2();
 	}
 	private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob i(Convert::ToInt32(textBox9->Text), Convert::ToInt32(textBox8->Text));
-		//listBox1->Items->Add(Convert::ToString(D2.GetChis().ToString() + "/" + D2.GetZnam().ToString() + " - " + i.GetChis().ToString() + "/" + i.GetZnam().ToString() + " = "));
 		Drob tmp = D2 - i;
 		D2.SetDrob(tmp.GetChis(),tmp.GetZnam());
-		//listBox1->Items->Add(Convert::ToString(D2.GetChis().ToString() + "/" + D2.GetZnam().ToString()));
 		UpdateD2();
 	}
 	private: System::Void button23_Click(System::Object^ sender, System::EventArgs^ e) {
