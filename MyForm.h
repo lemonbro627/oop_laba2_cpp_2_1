@@ -14,7 +14,7 @@ namespace ooplaba2cpp {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -23,13 +23,13 @@ namespace ooplaba2cpp {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -99,14 +99,14 @@ namespace ooplaba2cpp {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -195,7 +195,7 @@ namespace ooplaba2cpp {
 			this->button28->Name = L"button28";
 			this->button28->Size = System::Drawing::Size(157, 23);
 			this->button28->TabIndex = 7;
-			this->button28->Text = L"Дробь 2 / Дробь 1";
+			this->button28->Text = L"Р”СЂРѕР±СЊ 2 / Р”СЂРѕР±СЊ 1";
 			this->button28->UseVisualStyleBackColor = true;
 			this->button28->Click += gcnew System::EventHandler(this, &MyForm::button28_Click);
 			// 
@@ -205,7 +205,7 @@ namespace ooplaba2cpp {
 			this->button27->Name = L"button27";
 			this->button27->Size = System::Drawing::Size(157, 23);
 			this->button27->TabIndex = 6;
-			this->button27->Text = L"Дробь 1 / Дробь 2";
+			this->button27->Text = L"Р”СЂРѕР±СЊ 1 / Р”СЂРѕР±СЊ 2";
 			this->button27->UseVisualStyleBackColor = true;
 			this->button27->Click += gcnew System::EventHandler(this, &MyForm::button27_Click);
 			// 
@@ -215,7 +215,7 @@ namespace ooplaba2cpp {
 			this->button26->Name = L"button26";
 			this->button26->Size = System::Drawing::Size(75, 23);
 			this->button26->TabIndex = 5;
-			this->button26->Text = L"Произведение";
+			this->button26->Text = L"РџСЂРѕРёР·РІРµРґРµРЅРёРµ";
 			this->button26->UseVisualStyleBackColor = true;
 			this->button26->Click += gcnew System::EventHandler(this, &MyForm::button26_Click);
 			// 
@@ -225,7 +225,7 @@ namespace ooplaba2cpp {
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(75, 23);
 			this->button25->TabIndex = 4;
-			this->button25->Text = L"Сумма";
+			this->button25->Text = L"РЎСѓРјРјР°";
 			this->button25->UseVisualStyleBackColor = true;
 			this->button25->Click += gcnew System::EventHandler(this, &MyForm::button25_Click);
 			// 
@@ -235,7 +235,7 @@ namespace ooplaba2cpp {
 			this->button24->Name = L"button24";
 			this->button24->Size = System::Drawing::Size(157, 23);
 			this->button24->TabIndex = 3;
-			this->button24->Text = L"Дробь 1 = Дробь 2";
+			this->button24->Text = L"Р”СЂРѕР±СЊ 1 = Р”СЂРѕР±СЊ 2";
 			this->button24->UseVisualStyleBackColor = true;
 			this->button24->Click += gcnew System::EventHandler(this, &MyForm::button24_Click);
 			// 
@@ -245,7 +245,7 @@ namespace ooplaba2cpp {
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(157, 23);
 			this->button23->TabIndex = 2;
-			this->button23->Text = L"Дробь 2 = Дробь 1";
+			this->button23->Text = L"Р”СЂРѕР±СЊ 2 = Р”СЂРѕР±СЊ 1";
 			this->button23->UseVisualStyleBackColor = true;
 			this->button23->Click += gcnew System::EventHandler(this, &MyForm::button23_Click);
 			// 
@@ -255,7 +255,7 @@ namespace ooplaba2cpp {
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(75, 23);
 			this->button22->TabIndex = 1;
-			this->button22->Text = L"Разность";
+			this->button22->Text = L"Р Р°Р·РЅРѕСЃС‚СЊ";
 			this->button22->UseVisualStyleBackColor = true;
 			this->button22->Click += gcnew System::EventHandler(this, &MyForm::button22_Click);
 			// 
@@ -265,7 +265,7 @@ namespace ooplaba2cpp {
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(75, 23);
 			this->button21->TabIndex = 0;
-			this->button21->Text = L"Сравнить";
+			this->button21->Text = L"РЎСЂР°РІРЅРёС‚СЊ";
 			this->button21->UseVisualStyleBackColor = true;
 			this->button21->Click += gcnew System::EventHandler(this, &MyForm::button21_Click);
 			// 
@@ -307,7 +307,7 @@ namespace ooplaba2cpp {
 			this->groupBox2->Size = System::Drawing::Size(245, 209);
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Дробь 2";
+			this->groupBox2->Text = L"Р”СЂРѕР±СЊ 2";
 			// 
 			// button11
 			// 
@@ -317,7 +317,7 @@ namespace ooplaba2cpp {
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(57, 20);
 			this->button11->TabIndex = 45;
-			this->button11->Text = L"Убавить";
+			this->button11->Text = L"РЈР±Р°РІРёС‚СЊ";
 			this->button11->UseVisualStyleBackColor = true;
 			this->button11->Click += gcnew System::EventHandler(this, &MyForm::button11_Click);
 			// 
@@ -339,7 +339,7 @@ namespace ooplaba2cpp {
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(57, 20);
 			this->button12->TabIndex = 44;
-			this->button12->Text = L"Добавить";
+			this->button12->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->button12->UseVisualStyleBackColor = true;
 			this->button12->Click += gcnew System::EventHandler(this, &MyForm::button12_Click);
 			// 
@@ -366,7 +366,7 @@ namespace ooplaba2cpp {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(62, 13);
 			this->label12->TabIndex = 24;
-			this->label12->Text = L"Числитель";
+			this->label12->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// label7
 			// 
@@ -386,7 +386,7 @@ namespace ooplaba2cpp {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(75, 13);
 			this->label11->TabIndex = 25;
-			this->label11->Text = L"Знаменатель";
+			this->label11->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// textBox9
 			// 
@@ -430,7 +430,7 @@ namespace ooplaba2cpp {
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(75, 20);
 			this->button20->TabIndex = 28;
-			this->button20->Text = L"Задать";
+			this->button20->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button20->UseVisualStyleBackColor = true;
 			this->button20->Click += gcnew System::EventHandler(this, &MyForm::button20_Click);
 			// 
@@ -452,7 +452,7 @@ namespace ooplaba2cpp {
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(75, 20);
 			this->button19->TabIndex = 29;
-			this->button19->Text = L"Задать";
+			this->button19->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button19->UseVisualStyleBackColor = true;
 			this->button19->Click += gcnew System::EventHandler(this, &MyForm::button19_Click);
 			// 
@@ -474,7 +474,7 @@ namespace ooplaba2cpp {
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(75, 20);
 			this->button18->TabIndex = 30;
-			this->button18->Text = L"Задать";
+			this->button18->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button18->UseVisualStyleBackColor = true;
 			this->button18->Click += gcnew System::EventHandler(this, &MyForm::button18_Click);
 			// 
@@ -485,7 +485,7 @@ namespace ooplaba2cpp {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(75, 13);
 			this->label8->TabIndex = 36;
-			this->label8->Text = L"Знаменатель";
+			this->label8->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// textBox11
 			// 
@@ -502,7 +502,7 @@ namespace ooplaba2cpp {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(62, 13);
 			this->label9->TabIndex = 35;
-			this->label9->Text = L"Числитель";
+			this->label9->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// label10
 			// 
@@ -523,7 +523,7 @@ namespace ooplaba2cpp {
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(75, 20);
 			this->button17->TabIndex = 34;
-			this->button17->Text = L"Задать";
+			this->button17->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button17->UseVisualStyleBackColor = true;
 			this->button17->Click += gcnew System::EventHandler(this, &MyForm::button17_Click);
 			// 
@@ -565,7 +565,7 @@ namespace ooplaba2cpp {
 			this->groupBox1->Size = System::Drawing::Size(245, 209);
 			this->groupBox1->TabIndex = 4;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Дробь 1";
+			this->groupBox1->Text = L"Р”СЂРѕР±СЊ 1";
 			// 
 			// button10
 			// 
@@ -575,7 +575,7 @@ namespace ooplaba2cpp {
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(57, 20);
 			this->button10->TabIndex = 22;
-			this->button10->Text = L"Убавить";
+			this->button10->Text = L"РЈР±Р°РІРёС‚СЊ";
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &MyForm::button10_Click);
 			// 
@@ -587,7 +587,7 @@ namespace ooplaba2cpp {
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(57, 20);
 			this->button9->TabIndex = 21;
-			this->button9->Text = L"Добавить";
+			this->button9->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->button9->UseVisualStyleBackColor = true;
 			this->button9->Click += gcnew System::EventHandler(this, &MyForm::button9_Click);
 			// 
@@ -665,7 +665,7 @@ namespace ooplaba2cpp {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(75, 13);
 			this->label4->TabIndex = 13;
-			this->label4->Text = L"Знаменатель";
+			this->label4->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// label5
 			// 
@@ -674,7 +674,7 @@ namespace ooplaba2cpp {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(62, 13);
 			this->label5->TabIndex = 12;
-			this->label5->Text = L"Числитель";
+			this->label5->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// button4
 			// 
@@ -684,7 +684,7 @@ namespace ooplaba2cpp {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 20);
 			this->button4->TabIndex = 11;
-			this->button4->Text = L"Задать";
+			this->button4->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -723,7 +723,7 @@ namespace ooplaba2cpp {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 20);
 			this->button3->TabIndex = 7;
-			this->button3->Text = L"Задать";
+			this->button3->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -735,7 +735,7 @@ namespace ooplaba2cpp {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 20);
 			this->button2->TabIndex = 6;
-			this->button2->Text = L"Задать";
+			this->button2->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -747,7 +747,7 @@ namespace ooplaba2cpp {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 20);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Задать";
+			this->button1->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -774,7 +774,7 @@ namespace ooplaba2cpp {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(75, 13);
 			this->label2->TabIndex = 2;
-			this->label2->Text = L"Знаменатель";
+			this->label2->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// label1
 			// 
@@ -783,7 +783,7 @@ namespace ooplaba2cpp {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(62, 13);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"Числитель";
+			this->label1->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// textBox1
 			// 
@@ -803,7 +803,7 @@ namespace ooplaba2cpp {
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
 			this->Name = L"MyForm";
-			this->Text = L"Бажин Дмитрий, ООП Лаба 2";
+			this->Text = L"Р‘Р°Р¶РёРЅ Р”РјРёС‚СЂРёР№, РћРћРџ Р›Р°Р±Р° 2";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
@@ -822,7 +822,7 @@ namespace ooplaba2cpp {
 			textBox4->Text = ch;
 			textBox3->Text = zn;
 			textBox5->Text = zn;
-			listBox1->Items->Add("Дробь 1 -> " + textBox1->Text);
+			listBox1->Items->Add("Р”СЂРѕР±СЊ 1 -> " + textBox1->Text);
 		}
 		void UpdateD2() {
 			String^ ch = D2.GetChis().ToString();
@@ -832,7 +832,7 @@ namespace ooplaba2cpp {
 			textBox11->Text = ch;
 			textBox12->Text = zn;
 			textBox10->Text = zn;
-			listBox1->Items->Add("Дробь 2 -> " + textBox14->Text);
+			listBox1->Items->Add("Р”СЂРѕР±СЊ 2 -> " + textBox14->Text);
 		}
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		String^ a = textBox1->Text->ToString();
@@ -1008,34 +1008,34 @@ namespace ooplaba2cpp {
 	}
 	private: System::Void button21_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (D1 == D2) {
-			listBox1->Items->Add("Дровь 1 == Дробь 2");
+			listBox1->Items->Add("Р”СЂРѕРІСЊ 1 == Р”СЂРѕР±СЊ 2");
 		}
 		if (D1 > D2) {
-			listBox1->Items->Add("Дробь 1 > Дровь 2");
+			listBox1->Items->Add("Р”СЂРѕР±СЊ 1 > Р”СЂРѕРІСЊ 2");
 		}
 		if (D1 < D2) {
-			listBox1->Items->Add("Дровь 1 < Дробь 2");
+			listBox1->Items->Add("Р”СЂРѕРІСЊ 1 < Р”СЂРѕР±СЊ 2");
 		}
 	}
 	private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D1 - D2;
-		listBox1->Items->Add("Разность дробей = " + abs(tmp.GetChis()) + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р Р°Р·РЅРѕСЃС‚СЊ РґСЂРѕР±РµР№ = " + abs(tmp.GetChis()) + "/" + tmp.GetZnam());
 	}
 	private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D1 + D2;
-		listBox1->Items->Add("Сумма дробей = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("РЎСѓРјРјР° РґСЂРѕР±РµР№ = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button26_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D1 * D2;
-		listBox1->Items->Add("Произведение дробей = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("РџСЂРѕРёР·РІРµРґРµРЅРёРµ РґСЂРѕР±РµР№ = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button27_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D1 / D2;
-		listBox1->Items->Add("Дробь 1/Дробь 2 = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р”СЂРѕР±СЊ 1/Р”СЂРѕР±СЊ 2 = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D2 / D1;
-		listBox1->Items->Add("Дробь 2/Дробь 1 = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р”СЂРѕР±СЊ 2/Р”СЂРѕР±СЊ 1 = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 };
 }
